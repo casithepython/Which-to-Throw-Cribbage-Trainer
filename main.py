@@ -315,3 +315,9 @@ while human < 121 and computer < 121:
   print("Human: " + str(human))
   print("Computer: " + str(computer))
   print("------------------------------------")
+if computer>human:
+  print("My processors far exceed your puny mortal brain. I am, and always will be, the champion!")
+elif human>computer:
+  print("Human wins!")
+else:
+  print("It is a tie! Let's play again and we will see who truly is the champion.")
